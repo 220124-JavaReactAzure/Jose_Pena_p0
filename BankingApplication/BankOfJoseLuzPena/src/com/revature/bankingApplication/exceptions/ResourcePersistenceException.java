@@ -1,6 +1,6 @@
 package com.revature.bankingApplication.exceptions;
 
-public class ResourcePersistenceException {
+@SuppressWarnings("serial")
 	
 	public class ResourcePersistenceException extends RuntimeException {
 

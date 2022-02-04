@@ -1,6 +1,5 @@
 package com.revature.bankingApplication.exceptions;
 
-public class InvalidRequestException {
 
 	@SuppressWarnings("serial")
 	public class InvalidRequestException extends RuntimeException {
