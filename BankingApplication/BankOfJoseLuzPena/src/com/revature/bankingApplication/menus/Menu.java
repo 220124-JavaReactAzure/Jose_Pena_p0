@@ -1,4 +1,4 @@
-package com.revature.bankingApplication;
+package com.revature.bankingApplication.menus;
 
 import java.io.BufferedReader;
 
@@ -23,6 +23,7 @@ public abstract class Menu {
 	public String getRoute() {
 		return route;
 	}
+	
 	
 	public abstract void render() throws Exception;
 	
